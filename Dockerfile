@@ -1,14 +1,14 @@
-# Usa la imagen oficial de PHP
+# Use oficial PHP imagen 
 FROM php:8.1-cli
 
-# Configura el directorio de trabajo en el contenedor
+# Configuration path
 WORKDIR /app
 
-# Copia los archivos de la aplicación a /app en el contenedor
+# Copy files in container
 COPY . /app
 
-# Expone el puerto 8080
+# Listen port 8080 
 EXPOSE 8080
 
-# Inicia el servidor PHP en el puerto 8080
+# Start service
 CMD ["php", "-S", "0.0.0.0:8080", "-t", "/app"]
