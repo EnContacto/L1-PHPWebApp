@@ -3,7 +3,6 @@
 ## Prerequisites
 To run this application, ensure that the following are installed on your system:
 - **PHP** (version 7.4 or later)
-- **Composer** (optional, if using additional PHP dependencies)
 
 ## How to Run the Application
 
