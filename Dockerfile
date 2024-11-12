@@ -11,4 +11,4 @@ COPY . /app
 EXPOSE 8080
 
 # Start service
-CMD ["php", "-S", "0.0.0.0:8080", "-t", "/app"]
+CMD ["php", "-S", "localhost:8080", "-t", "/app"]
