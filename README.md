@@ -16,6 +16,8 @@ To run the application on your local machine:
 3. Start a local PHP server with the following command:
    ```bash
    php -S localhost:8080
+The application should now be accessible at `http://localhost:8080` in your web browser.
+
 ### Running with Docker
 You can also run this application using Docker for a containerized environment.
 1. In the project’s root directory, open a terminal and run:
@@ -25,7 +27,7 @@ You can also run this application using Docker for a containerized environment.
 2. After the image is built, run the container using:
    ```bash
    docker run -p 8080:8080 php-incremental-counter
-The application should now be accessible at http://localhost:8080 in your web browser.
+The application should now be accessible at `http://localhost:8080` in your web browser.
 
 ## Additional Information
 This application uses PHP’s built-in server for local development and Docker for containerized deployment. It is designed to run statelessly, with the counter resetting each time the server restarts.
