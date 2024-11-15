@@ -1,6 +1,7 @@
 <?php
 // Execution counter
-$filename = 'counter.txt';
+$filename = '/tmp/counter.txt';
+
 
 
 if (!file_exists($filename)) {
